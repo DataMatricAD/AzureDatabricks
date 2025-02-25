@@ -1,0 +1,33 @@
+{
+    "name": "dbs_bronze_silver",
+    "properties": {
+        "activities": [
+            {
+                "name": "person",
+                "type": "DatabricksNotebook",
+                "dependsOn": [],
+                "policy": {
+                    "timeout": "0.12:00:00",
+                    "retry": 0,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "notebookPath": "/Shared/dbs-demo-project/bronze-to-silver"
+                },
+                "linkedServiceName": {
+                    "referenceName": "DBSDemoLKS",
+                    "type": "LinkedServiceReference"
+                }
+            }
+        ],
+        "folder": {
+            "name": "person-details"
+        },
+        "annotations": [],
+        "lastPublishTime": "2025-02-22T05:22:42Z"
+    },
+    "type": "Microsoft.DataFactory/factories/pipelines"
+}

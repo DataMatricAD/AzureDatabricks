@@ -1,0 +1,21 @@
+{
+  "version": "0.1",
+  "connections": [
+    {
+      "details": {
+        "protocol": "databricks-sql",
+        "address": {
+          "host": "adb-1414194557308463.3.azuredatabricks.net",
+          "path": "sql/protocolv1/o/1414194557308463/0221-211008-90ieh305"
+        },
+        "authentication": null,
+        "query": null
+      },
+      "options": {
+        "Catalog": "hive_metastore",
+        "Database": "person_db"
+      },
+      "mode": "DirectQuery"
+    }
+  ]
+}

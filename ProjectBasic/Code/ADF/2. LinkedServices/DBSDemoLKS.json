@@ -1,0 +1,13 @@
+{
+    "name": "DBSDemoLKS",
+    "type": "Microsoft.DataFactory/factories/linkedservices",
+    "properties": {
+        "annotations": [],
+        "type": "AzureDatabricks",
+        "typeProperties": {
+            "domain": "https://adb-1414194557308463.3.azuredatabricks.net",
+            "existingClusterId": "0221-211008-90ieh305",
+            "encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDBGQzFBRTk2LUQ4NzgtNDgzOS04MTA1LTA3NTg2Njg1QUE4Ql85NTk1NjY1Ni1kNTRiLTQ5NjEtOWE5Mi05MTA4MTQ2NTZlODciDQp9"
+        }
+    }
+}
