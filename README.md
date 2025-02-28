@@ -244,15 +244,6 @@ It is preferred to use job-clusters. I am using interactive for this demo.
 We can click on run-now to run the job and set trigger for scheduling.
  
  
-
- 
-
- 
-
- 
- 
-
-
 22.	Integrate with Power BI and build a sample report.
 Navigate to Catalog - > Hive Metastore - > Click on Open in Power BI Desktop
  
