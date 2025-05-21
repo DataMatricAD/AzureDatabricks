@@ -1,6 +1,8 @@
 # AzureDatabricks
 
 Azure Databricks Project (With ADF)
+![image](https://github.com/user-attachments/assets/d3d9266a-041b-4e8d-b565-de7f0b94b663)
+
 
 
 Resource Group and Resource Creation
