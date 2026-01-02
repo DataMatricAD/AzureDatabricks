@@ -1,0 +1,28 @@
+{
+    "name": "emailaddressbrz",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "adlsmedlion",
+            "type": "LinkedServiceReference",
+            "parameters": {
+                "param1": "person"
+            }
+        },
+        "annotations": [],
+        "type": "Parquet",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "fileName": {
+                    "value": "emailaddress",
+                    "type": "Expression"
+                },
+                "folderPath": "person/email",
+                "fileSystem": "bronze"
+            },
+            "compressionCodec": "snappy"
+        },
+        "schema": []
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}
